@@ -1,0 +1,6 @@
+framework module Pods_AttendBotUITests {
+  umbrella header "Pods-AttendBotUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Rohan chopra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEg-TS-Zck">
+                                <rect key="frame" x="16" y="507" width="343" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_Appstore" translatesAutoresizingMaskIntoConstraints="NO" id="VHk-lG-GAD">
+                                <rect key="frame" x="53" y="141" width="269" height="274"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VHk-lG-GAD" secondAttribute="height" multiplier="269:274" id="i4q-OC-fwS"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.015686274509803921" blue="0.031372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VHk-lG-GAD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="121" id="TsS-5i-tk2"/>
+                            <constraint firstItem="lEg-TS-Zck" firstAttribute="top" secondItem="VHk-lG-GAD" secondAttribute="bottom" constant="92" id="UD6-Th-pem"/>
+                            <constraint firstItem="lEg-TS-Zck" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Vo9-bF-IT1"/>
+                            <constraint firstItem="VHk-lG-GAD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="b95-NA-C1U"/>
+                            <constraint firstItem="VHk-lG-GAD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="gBu-rj-L7w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VHk-lG-GAD" secondAttribute="trailing" constant="53" id="n0M-bZ-hjc"/>
+                            <constraint firstItem="lEg-TS-Zck" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="vuc-NO-Ebk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lEg-TS-Zck" secondAttribute="trailing" constant="16" id="zFE-b5-Dfx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_Appstore" width="1024" height="1024"/>
+    </resources>
+</document>
